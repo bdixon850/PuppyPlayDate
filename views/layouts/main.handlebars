@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="#"/>
+
+        <title>puppy-play-date</title>
+
+ <!-- Bootstrap and  CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="/style.css" type="text/css" />
+	<title>Puppy Play Date</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<script src="/dogs.js"></script>
+        </head>
+
+	<body>
+
+
+		{{{ body }}}
+
+
+
+    	<footer class="bd-footer text-muted bg-dark" style="height:60px; width:100%; position:fixed; left:0px; bottom:0px;">
+  		<div class="container-fluid p-1 p-md-2">
+    			<span class="text-muted">&copy; 2019 Copyright Team 5</span>
+  		</div>
+	</footer>
+
+	</body>
+
+	<script>
+		$('#submit').click(function() {
+			let zipOne = $('#zipcode').val();
+			let zipTwo = $('#zipcode2').val();
+			let url = "https://www.zipcodeapi.com/rest/EG6KJntsg3LVNpvjrIAs7CYJqvA9U3m9gChV0abLjYPXNX9NLaZJJTNkoZpqgpga/distance.json/" + zipOne + "/" + zipTwo + "/mile";
+			console.log('Here')
+			$.ajax({
+				method: "GET",
+				url: url
+			}).done(function(err, response) {
+				if (err) {
+				console.log(err);
+				return;
+				}
+        			console.log(response);
+    
+    			})
+		});
+	</script>
+
+</HTML>

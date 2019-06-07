@@ -1,0 +1,18 @@
+-- Seeds for the SQL table, puppy_info
+USE pupps_db;
+INSERT INTO users (email, password, firstName, lastName, zipCode, puppyName, puppyGender, puppyBreed, puppyPersonality, puppyAge, puppyWeight, imgUrl, zipCodeRadius)
+VALUES
+('DarNealx1@gmail.com', 'darryl', 'Darryl', 'Neal', 30345, 'Boston', 'Male', 'Boxer', 'Fun', 5, 70, 'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12223604/Tibetan-Mastiff-On-White-01.jpg', 3),
+('Boygirl@gmail.com', 'clemons','Victor','Clemens', 30321, 'Marbles','Male','Pomeranian','Inquisitive', 3, 9,'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12225627/Pomeranian-On-White-01.jpg', 5),
+('BooneMaja176@hotmail.com','Boone','Manja','Boone', 30344, 'Oreo','Male','Australian Shepherd','Smart', 5, 50,'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/03173132/Australian-Shepherd.1.jpg', 6),
+('ParrellmEmile1995@yahoo.com', 'Farrell','Emelie','Farrell', 30127, 'Pickle','Female','Bichon Frise','Playful', 2, 15,'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/13000402/Bichon-Frise-On-White-03.jpg', 2),
+('hutton@att.net', 'Oneil','Brian','Oneil', 30338, 'Scoot','Male','Dalmatian','Dignified, Smart, Outgoing', 3, 50, 'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12234026/Dalmatian-On-White-01.jpg', 4),
+('satch@aol.com','Jamie', 'Jamie','Hines', 30345, 'Nacho','Male','Dachshund','Friendly, Curious, Spunky', 1, 16,'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12234109/Dachshund-On-White-03.jpg', 10),
+('tkrotchko@hotmail.com', 'Aden', 'Aden', 'Pidena', 30321, 'Potato','Female','French Bulldog','Adaptable, Playful, Smart', 2, 20, 'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12195209/French-Bulldog-on-White-10-1-e1517511687435.jpg', 7),
+('twoflower@aol.com', 'Jorgie', 'Austin','Jorgie', 30319, 'Noodle','Female','German Longhaired Pointer','Versatile, Calm, Family-Oriented', 2, 55, 'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12210613/German-Longhaired-Pointer-on-White-01.jpg', 8),
+('Novak6969Kia@gmail.com', 'Kia', 'Kia', 'Novak', 30127, 'Bolt','Male','Greyhound','Gentle, Independent, Noble', 12, 65, 'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12232417/Greyhound-MP.jpg', 12),
+('jigsaw@msn.com', 'Maddy', 'Penn', 'Maddy', 30319, 'Flash','Male','Jindo','Alert, Intelligent, Bold', 11, 40, 'https://images.ctfassets.net/w00x6p5qkejz/4IQHKDVicUw6k8YUUICmom/099cc07fe25a5d10c6f6ef42ae3035ef/Korean_Jindo_300x300-1.jpg', 5),
+('TobiB@hotmail.com', 'Tobi', 'Bright','Tobi', 30318, 'Luna','Female','Mudi','Loyal, Intelligent, Active', 10, 14, 'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12230639/Mudi-On-White-01.jpg', 11),
+('KrisWeiss101@gmail.com', 'Kristen', 'Weiss','Kristen', 30321, 'Spot','Female','Parson Russell Terrier','Friendly, Clever, Athletic', 7, 17, 'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12211654/Parson-Russell-Terrier-on-White-05.jpg', 5),
+('EnglandSoccerMae15@msn.com', 'Mae', 'England','Mae', 30339, 'Otis','Male','Corgi','Affectionate, Smart, Alert', 5, 30, 'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12225906/Pembroke-Welsh-Corgi-On-White-05.jpg', 9),
+('moonlapse@outlook.com', 'Kyan', 'Wall','Kyan', 30339, 'Max','Male','Pug','Charming, Mischievous, Loving', 3, 14, 'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12225349/Pug-On-White-03.jpg', 15);

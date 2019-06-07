@@ -1,0 +1,39 @@
+{
+  "name": "puppy-play-date",
+  "version": "1.0.0",
+  "description": "Match making dog owner app",
+  "main": "server.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puppy-play-date/puppy-play-date.git"
+  },
+  "author": "Viviana, Helmi, Dean, Brandon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puppy-play-date/puppy-play-date/issues"
+  },
+  "homepage": "https://github.com/puppy-play-date/puppy-play-date#readme",
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-google": "^0.12.0"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "express-session": "^1.15.6",
+    "handlebars": "^4.1.0",
+    "jsonwebtoken": "^8.5.0",
+    "method-override": "^3.0.0",
+    "mocha": "^6.0.2",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^4.43.0"
+  }
+}
